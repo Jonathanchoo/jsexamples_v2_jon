@@ -121,6 +121,23 @@
 
       // TODO: loop through the mealPreference "radio buttons"
       // so long as one of the radio buttons is selected, set mealSelected to true and break out of the loop
+ 
+      for (let index = 0; index < mealPreference.length; index++) {
+        const element = mealPreference[index];
+        if(element.checked){
+          mealSelected = true;
+          break;
+        }
+      }
+ 
+      // TODO: using logical AND operation to ensure that name is validated == true AND mealSelected == true
+      if(validated === true && mealSelected === true) {
+        return alert("Thank you. We received your submission.");
+      }
+ 
+      return alert("Please complete all inputs.");
+
+
 
       // TODO: using logical AND operation to ensure that name is validated == true AND mealSelected == true 
 
