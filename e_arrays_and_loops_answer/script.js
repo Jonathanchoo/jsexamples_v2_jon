@@ -112,7 +112,7 @@ productListing.forEach(item => console.log(item));
 // iii - do-while loop (execute first, check for the condition later)
 
 // -- Uncomment the code below to test -- 
-// let getName = "";
+// let getName = ""; n
 
 // do{ // start executing first
 //     getName = prompt("Please enter your name:");
